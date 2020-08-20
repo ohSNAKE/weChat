@@ -1,0 +1,1 @@
+<view class="container"><swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"><block wx:for="{{bannerList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><swiper-item><image mode="{{item.mode}}" src="{{item.imageUrl}}"></image></swiper-item></block></swiper></view>
